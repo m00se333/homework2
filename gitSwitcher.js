@@ -1,7 +1,7 @@
 
 
 function commentary(day) {
-
+	//I like that your switch statement is executed in a function
 	switch(day.toLowerCase()) {
 		case "monday":
 			console.log("I actually don't mind Mondays, dunno why it gets a bad wrap.");
@@ -13,7 +13,7 @@ function commentary(day) {
 			console.log("Wed-nes-day, is my most misspelled day.");
 			break;
 		case "thursday":
-			console.log("Thursday is fun");
+			console.log("Thursday is really fun");
 			break;
 		case "friday":
 			console.log("Friday is the day I always want to go out and do something, but normally I have to work /sadface.");
