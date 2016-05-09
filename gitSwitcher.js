@@ -7,7 +7,8 @@ function commentary(day) {
 			console.log("I actually don't mind Mondays, dunno why it gets a bad wrap.");
 			break;
 		case "tuesday":
-			console.log("Tuesday is alright, I guess. Sometimes an excuse to drink beer and eat tacos.");
+			//console.log("Tuesday is alright, I guess. Sometimes an excuse to drink beer and eat tacos.");
+			console.log("Tuesday is better now! Beer and tacos!");
 			break;
 		case "wednesday":
 			console.log("Wed-nes-day, is my most misspelled day.");
