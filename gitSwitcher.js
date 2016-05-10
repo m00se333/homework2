@@ -2,6 +2,15 @@
 
 function commentary(day) {
 	//I like that your switch statement is executed in a function
+
+	if (day.toLowerCase() === "mon"){ day = "monday"; }
+	if (day.toLowerCase() === "tue"){ day = "tuesday"; }
+	if (day.toLowerCase() === "wed"){ day = "wednesday"; }
+	if (day.toLowerCase() === "thu"){ day = "thursday"; }
+	if (day.toLowerCase() === "fri"){ day = "friday"; }
+	if (day.toLowerCase() === "sat"){ day = "saturday"; }
+	if (day.toLowerCase() === "sun"){ day = "sunday"; }
+
 	switch(day.toLowerCase()) {
 		case "monday":
 			console.log("I actually don't mind Mondays, dunno why it gets a bad wrap.");
@@ -20,17 +29,16 @@ function commentary(day) {
 			console.log("Friday is the day I always want to go out and do something, but normally I have to work /sadface.");
 			break;
 		case "saturday":
-			console.log("Another day where I find myself envious of those who Mon-Fri.")
+			console.log("Another day where I find myself envious of those who Mon-Fri.");
 			break;
 		case "sunday":
 			console.log("My favorite day probably, I just want to do nothing and drink mimosas on Sunday.");
 			break;
 		default: 
 			console.log("That isn't a day of the week.");
-		}
-		
+		}		
 }
 
-var response = prompt("what day do you want to know more about?")
+var response = prompt("what day do you want to know more about?");
 
 commentary(response);
